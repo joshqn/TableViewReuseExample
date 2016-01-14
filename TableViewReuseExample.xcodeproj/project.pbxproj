@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		914629131C47386D00E84A5F /* FirstOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914629121C47386D00E84A5F /* FirstOrder.swift */; };
+		914629151C47389000E84A5F /* TheResistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914629141C47389000E84A5F /* TheResistance.swift */; };
+		91B8C2B01C4801F9009CBD8D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B8C2AF1C4801F9009CBD8D /* Protocols.swift */; };
 		91D28EC71C45B8A80022B0F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D28EC61C45B8A80022B0F0 /* AppDelegate.swift */; };
 		91D28EC91C45B8A80022B0F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D28EC81C45B8A80022B0F0 /* ViewController.swift */; };
 		91D28ECC1C45B8A80022B0F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D28ECA1C45B8A80022B0F0 /* Main.storyboard */; };
 		91D28ECE1C45B8A80022B0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D28ECD1C45B8A80022B0F0 /* Assets.xcassets */; };
 		91D28ED11C45B8A80022B0F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D28ECF1C45B8A80022B0F0 /* LaunchScreen.storyboard */; };
+		91D28ED91C45B9300022B0F0 /* MyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D28ED81C45B9300022B0F0 /* MyTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		914629121C47386D00E84A5F /* FirstOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstOrder.swift; sourceTree = "<group>"; };
+		914629141C47389000E84A5F /* TheResistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheResistance.swift; sourceTree = "<group>"; };
+		91B8C2AF1C4801F9009CBD8D /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		91D28EC31C45B8A80022B0F0 /* TableViewReuseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewReuseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D28EC61C45B8A80022B0F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D28EC81C45B8A80022B0F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		91D28ECD1C45B8A80022B0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D28ED01C45B8A80022B0F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91D28ED21C45B8A80022B0F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D28ED81C45B9300022B0F0 /* MyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				91D28EC61C45B8A80022B0F0 /* AppDelegate.swift */,
 				91D28EC81C45B8A80022B0F0 /* ViewController.swift */,
+				91D28ED81C45B9300022B0F0 /* MyTableView.swift */,
+				914629121C47386D00E84A5F /* FirstOrder.swift */,
+				914629141C47389000E84A5F /* TheResistance.swift */,
+				91B8C2AF1C4801F9009CBD8D /* Protocols.swift */,
 				91D28ECA1C45B8A80022B0F0 /* Main.storyboard */,
 				91D28ECD1C45B8A80022B0F0 /* Assets.xcassets */,
 				91D28ECF1C45B8A80022B0F0 /* LaunchScreen.storyboard */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914629151C47389000E84A5F /* TheResistance.swift in Sources */,
+				91D28ED91C45B9300022B0F0 /* MyTableView.swift in Sources */,
 				91D28EC91C45B8A80022B0F0 /* ViewController.swift in Sources */,
+				91B8C2B01C4801F9009CBD8D /* Protocols.swift in Sources */,
 				91D28EC71C45B8A80022B0F0 /* AppDelegate.swift in Sources */,
+				914629131C47386D00E84A5F /* FirstOrder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				91D28ED71C45B8A80022B0F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
